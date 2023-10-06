@@ -14,7 +14,7 @@ function ShopHistory() {
     <div style={{
       overflow: "auto",
       scrollbarWidth: "none",                                        
-      msOverflowStyle: "none"}} className="h-screen pb-16">
+      msOverflowStyle: "none"}} className="h-screen pb-36">
       {historyList &&
         Object.keys(historyList).map((date, index) => (
           <>
